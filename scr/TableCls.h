@@ -28,7 +28,6 @@ public slots:
 private:
     QTableWidget* m_table;
     QFile* m_file;
-    QTextStream out;
     QVBoxLayout* layout;
     QPushButton* btm;
     QPushButton* dataUploader;

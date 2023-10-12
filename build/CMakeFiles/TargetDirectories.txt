@@ -1,0 +1,4 @@
+/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/CMakeFiles/IpValidatorUI.dir
+/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/CMakeFiles/edit_cache.dir
+/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/CMakeFiles/rebuild_cache.dir
+/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/CMakeFiles/IpValidatorUI_autogen.dir

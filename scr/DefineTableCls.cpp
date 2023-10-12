@@ -24,7 +24,7 @@ Table::Table(QWidget *parent) : QDialog(parent) {
     m_table->setColumnWidth(0,200);
     m_table->setColumnWidth(1,200);
     m_table->setHorizontalHeaderLabels({"Address","Status"});
-    m_file = new QFile("C:\\Users\\acer\\Desktop\\FileDescr\\FileDescriptor\\FileDescriptor\\ipList.txt");
+    m_file = new QFile("/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/iplist.txt");
     m_file->open(QIODevice::ReadOnly | QIODevice::Text);
     //Table::uploadData();
 
