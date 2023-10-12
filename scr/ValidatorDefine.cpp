@@ -1,4 +1,6 @@
-#pragma once
+#ifndef VALIDATOR
+#define VALIDATOR
+
 #include <QString>
 #include "ValidatorCls.h"
 #include <boost/asio.hpp>
@@ -19,3 +21,4 @@ bool ValidatorIPAddresses::isValidIp(const QString& address)
     }
     return pResult;
 }
+#endif
