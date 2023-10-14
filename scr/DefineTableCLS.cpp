@@ -76,6 +76,10 @@ Table::Table(QWidget *parent) : QDialog(parent) {
     on_addNewRow->setFixedHeight(50);
     on_addNewRow->setFixedWidth(200);
 
+    getAddresses->setFixedHeight(50);
+    getAddresses->setFixedWidth(200);
+
+
     on_saveChangin->setFixedWidth(200);
     on_saveChangin->setFixedHeight(50);
 
@@ -113,7 +117,7 @@ QTextStream& qStdOut()
 
 void Table::getCurrrentIpInfo()
 {
-    subDialog->show();
+     QVBoxLayout* layoutIp = new QVBoxLayout;
 
 
     using boost::asio::ip::tcp;
@@ -127,7 +131,20 @@ void Table::getCurrrentIpInfo()
                 tcp::endpoint ep = *iter++;
                 QLabel* addressLabel = new QLabel("Address: " + QString::fromStdString(ep.address().to_string()));
                 QLabel* portLabel = new QLabel("Port: " + QString::number(ep.port()));
+                QLabel* Capacity = new QLabel("Capacity: " + QString::number(ep.capacity()));
+                layoutIp->addWidget(addressLabel);
+                layoutIp->addWidget(portLabel);
+                layoutIp->addWidget(Capacity);
+                subDialog->setLayout(layoutIp);
             }
+        //subDialog->setFixedSize(600,300);
+        subDialog->show();
+       //if(getAddresses->isChecked())
+        //{
+         //   subDialog->hide();
+        //}
+
+
    // layout->addWidget(subDialog);
 
 

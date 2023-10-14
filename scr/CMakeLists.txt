@@ -15,7 +15,7 @@ add_executable(IpValidatorUI /
     TableCls.h 
     ValidatorCls.h 
     mainwindow.h    
-    DefineTableCls.cpp 
+    DefineTableCLS.cpp
     HighLighterColumns.cpp 
     ValidatorDefine.cpp 
     main.cpp 

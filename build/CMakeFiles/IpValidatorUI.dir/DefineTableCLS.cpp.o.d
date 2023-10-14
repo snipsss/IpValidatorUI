@@ -1,5 +1,5 @@
-CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o: \
- /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCls.cpp \
+CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o: \
+ /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCLS.cpp \
  /usr/include/stdc-predef.h \
  /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/TableCls.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidget \

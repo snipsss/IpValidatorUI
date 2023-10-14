@@ -8,6 +8,11 @@
 #include <QVBoxLayout>
 #include <QFile>
 #include <QPushButton>
+#include "CurrentAddress.h"
+
+
+
+
 
 class Table : public QDialog {
     Q_OBJECT
@@ -17,6 +22,8 @@ public:
      ~Table();
     //void addNewRow();
 public slots:
+    void getCurrrentIpInfo();
+    //void showLocalsAddresses();
     void uploadData();
     void saveFileChanging();
     void addNewRow();
@@ -26,7 +33,9 @@ public slots:
     //void GetStatusOfValidate();
 
 private:
+    QDialog *subDialog;
     QTableWidget* m_table;
+    QPushButton* getAddresses;
     QFile* m_file;
     QVBoxLayout* layout;
     QPushButton* btm;

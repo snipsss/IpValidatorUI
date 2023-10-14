@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCls.cpp" "CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o" "gcc" "CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o.d"
+  "/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCLS.cpp" "CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o" "gcc" "CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o.d"
   "/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/HighLighterColumns.cpp" "CMakeFiles/IpValidatorUI.dir/HighLighterColumns.cpp.o" "gcc" "CMakeFiles/IpValidatorUI.dir/HighLighterColumns.cpp.o.d"
   "/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/IpValidatorUI_autogen/mocs_compilation.cpp" "CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.o.d"
   "/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/ValidatorDefine.cpp" "CMakeFiles/IpValidatorUI.dir/ValidatorDefine.cpp.o" "gcc" "CMakeFiles/IpValidatorUI.dir/ValidatorDefine.cpp.o.d"

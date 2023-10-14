@@ -83,19 +83,19 @@ CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/IpValidatorUI_autogen/mocs_compilation.cpp -o CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o: CMakeFiles/IpValidatorUI.dir/flags.make
-CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o: /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCls.cpp
-CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o: CMakeFiles/IpValidatorUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o -MF CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o.d -o CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o -c /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCls.cpp
+CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o: CMakeFiles/IpValidatorUI.dir/flags.make
+CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o: /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCLS.cpp
+CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o: CMakeFiles/IpValidatorUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o -MF CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o.d -o CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o -c /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCLS.cpp
 
-CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCls.cpp > CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.i
+CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCLS.cpp > CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.i
 
-CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCls.cpp -o CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.s
+CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/DefineTableCLS.cpp -o CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.s
 
 CMakeFiles/IpValidatorUI.dir/HighLighterColumns.cpp.o: CMakeFiles/IpValidatorUI.dir/flags.make
 CMakeFiles/IpValidatorUI.dir/HighLighterColumns.cpp.o: /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/HighLighterColumns.cpp
@@ -156,7 +156,7 @@ CMakeFiles/IpValidatorUI.dir/mainwindow.cpp.s: cmake_force
 # Object files for target IpValidatorUI
 IpValidatorUI_OBJECTS = \
 "CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o" \
+"CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o" \
 "CMakeFiles/IpValidatorUI.dir/HighLighterColumns.cpp.o" \
 "CMakeFiles/IpValidatorUI.dir/ValidatorDefine.cpp.o" \
 "CMakeFiles/IpValidatorUI.dir/main.cpp.o" \
@@ -166,7 +166,7 @@ IpValidatorUI_OBJECTS = \
 IpValidatorUI_EXTERNAL_OBJECTS =
 
 bin/IpValidatorUI: CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.o
-bin/IpValidatorUI: CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o
+bin/IpValidatorUI: CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o
 bin/IpValidatorUI: CMakeFiles/IpValidatorUI.dir/HighLighterColumns.cpp.o
 bin/IpValidatorUI: CMakeFiles/IpValidatorUI.dir/ValidatorDefine.cpp.o
 bin/IpValidatorUI: CMakeFiles/IpValidatorUI.dir/main.cpp.o
