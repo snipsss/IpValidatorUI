@@ -52,13 +52,13 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = ../scr/DefineTableCls.cpp \
+SOURCES       = ../scr/DefineTableCLS.cpp \
 		../scr/HighLighterColumns.cpp \
 		../scr/ValidatorDefine.cpp \
 		../scr/main.cpp \
 		../scr/mainwindow.cpp moc_TableCls.cpp \
 		moc_mainwindow.cpp
-OBJECTS       = DefineTableCls.o \
+OBJECTS       = DefineTableCLS.o \
 		HighLighterColumns.o \
 		ValidatorDefine.o \
 		main.o \
@@ -122,6 +122,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf \
+		../scr/.qmake.stash \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf \
@@ -145,7 +146,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		../scr/IpValidator.pro ../scr/ReadFromFile.h \
 		../scr/TableCls.h \
 		../scr/ValidatorCls.h \
-		../scr/mainwindow.h ../scr/DefineTableCls.cpp \
+		../scr/mainwindow.h ../scr/DefineTableCLS.cpp \
 		../scr/HighLighterColumns.cpp \
 		../scr/ValidatorDefine.cpp \
 		../scr/main.cpp \
@@ -218,6 +219,7 @@ Makefile: ../scr/IpValidator.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf \
@@ -297,6 +299,7 @@ Makefile: ../scr/IpValidator.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf:
@@ -334,7 +337,7 @@ distdir: FORCE
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../scr/ReadFromFile.h ../scr/TableCls.h ../scr/ValidatorCls.h ../scr/mainwindow.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../scr/DefineTableCls.cpp ../scr/HighLighterColumns.cpp ../scr/ValidatorDefine.cpp ../scr/main.cpp ../scr/mainwindow.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../scr/DefineTableCLS.cpp ../scr/HighLighterColumns.cpp ../scr/ValidatorDefine.cpp ../scr/main.cpp ../scr/mainwindow.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../scr/mainwindow.ui $(DISTDIR)/
 
 
@@ -371,6 +374,7 @@ compiler_moc_header_make_all: moc_TableCls.cpp moc_mainwindow.cpp
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_TableCls.cpp moc_mainwindow.cpp
 moc_TableCls.cpp: ../scr/TableCls.h \
+		../scr/CurrentAddress.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build-IpValidator-Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr -I/home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/D:/boost/boost_1_82_0 -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../scr/TableCls.h -o moc_TableCls.cpp
@@ -401,9 +405,11 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_ui
 
 ####### Compile
 
-DefineTableCls.o: ../scr/DefineTableCls.cpp ../scr/TableCls.h \
-		../scr/ValidatorCls.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DefineTableCls.o ../scr/DefineTableCls.cpp
+DefineTableCLS.o: ../scr/DefineTableCLS.cpp ../scr/TableCls.h \
+		../scr/CurrentAddress.h \
+		../scr/ValidatorCls.h \
+		../scr/mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DefineTableCLS.o ../scr/DefineTableCLS.cpp
 
 HighLighterColumns.o: ../scr/HighLighterColumns.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o HighLighterColumns.o ../scr/HighLighterColumns.cpp
@@ -413,6 +419,7 @@ ValidatorDefine.o: ../scr/ValidatorDefine.cpp ../scr/ValidatorCls.h
 
 main.o: ../scr/main.cpp ../scr/mainwindow.h \
 		../scr/TableCls.h \
+		../scr/CurrentAddress.h \
 		../scr/ReadFromFile.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../scr/main.cpp
 

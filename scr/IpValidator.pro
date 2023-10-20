@@ -13,7 +13,7 @@ LIBS += "-LD:/boost/boost_1_82_0/libs"
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    DefineTableCls.cpp \
+    DefineTableCLS.cpp \
     HighLighterColumns.cpp \
     ValidatorDefine.cpp \
     main.cpp \

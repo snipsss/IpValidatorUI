@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Table_t {
-    QByteArrayData data[8];
-    char stringdata0[101];
+    QByteArrayData data[9];
+    char stringdata0[119];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,18 +33,19 @@ struct qt_meta_stringdata_Table_t {
 static const qt_meta_stringdata_Table_t qt_meta_stringdata_Table = {
     {
 QT_MOC_LITERAL(0, 0, 5), // "Table"
-QT_MOC_LITERAL(1, 6, 10), // "uploadData"
-QT_MOC_LITERAL(2, 17, 0), // ""
-QT_MOC_LITERAL(3, 18, 16), // "saveFileChanging"
-QT_MOC_LITERAL(4, 35, 9), // "addNewRow"
-QT_MOC_LITERAL(5, 45, 13), // "highlightRows"
-QT_MOC_LITERAL(6, 59, 17), // "flushAllFromTable"
-QT_MOC_LITERAL(7, 77, 23) // "ableUnAbleHighlightRows"
+QT_MOC_LITERAL(1, 6, 17), // "getCurrrentIpInfo"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 10), // "uploadData"
+QT_MOC_LITERAL(4, 36, 16), // "saveFileChanging"
+QT_MOC_LITERAL(5, 53, 9), // "addNewRow"
+QT_MOC_LITERAL(6, 63, 13), // "highlightRows"
+QT_MOC_LITERAL(7, 77, 17), // "flushAllFromTable"
+QT_MOC_LITERAL(8, 95, 23) // "ableUnAbleHighlightRows"
 
     },
-    "Table\0uploadData\0\0saveFileChanging\0"
-    "addNewRow\0highlightRows\0flushAllFromTable\0"
-    "ableUnAbleHighlightRows"
+    "Table\0getCurrrentIpInfo\0\0uploadData\0"
+    "saveFileChanging\0addNewRow\0highlightRows\0"
+    "flushAllFromTable\0ableUnAbleHighlightRows"
 };
 #undef QT_MOC_LITERAL
 
@@ -54,7 +55,7 @@ static const uint qt_meta_data_Table[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -62,14 +63,16 @@ static const uint qt_meta_data_Table[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   44,    2, 0x0a /* Public */,
-       3,    0,   45,    2, 0x0a /* Public */,
-       4,    0,   46,    2, 0x0a /* Public */,
-       5,    0,   47,    2, 0x0a /* Public */,
-       6,    0,   48,    2, 0x0a /* Public */,
-       7,    0,   49,    2, 0x0a /* Public */,
+       1,    0,   49,    2, 0x0a /* Public */,
+       3,    0,   50,    2, 0x0a /* Public */,
+       4,    0,   51,    2, 0x0a /* Public */,
+       5,    0,   52,    2, 0x0a /* Public */,
+       6,    0,   53,    2, 0x0a /* Public */,
+       7,    0,   54,    2, 0x0a /* Public */,
+       8,    0,   55,    2, 0x0a /* Public */,
 
  // slots: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -86,12 +89,13 @@ void Table::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
         auto *_t = static_cast<Table *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->uploadData(); break;
-        case 1: _t->saveFileChanging(); break;
-        case 2: _t->addNewRow(); break;
-        case 3: _t->highlightRows(); break;
-        case 4: _t->flushAllFromTable(); break;
-        case 5: _t->ableUnAbleHighlightRows(); break;
+        case 0: _t->getCurrrentIpInfo(); break;
+        case 1: _t->uploadData(); break;
+        case 2: _t->saveFileChanging(); break;
+        case 3: _t->addNewRow(); break;
+        case 4: _t->highlightRows(); break;
+        case 5: _t->flushAllFromTable(); break;
+        case 6: _t->ableUnAbleHighlightRows(); break;
         default: ;
         }
     }
@@ -127,13 +131,13 @@ int Table::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 7)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 6;
+        _id -= 7;
     }
     return _id;
 }

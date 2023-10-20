@@ -1,5 +1,6 @@
 /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/IpValidatorUI_autogen/EWIEGA46WW/moc_TableCls.cpp: /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/TableCls.h \
   /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/IpValidatorUI_autogen/moc_predefs.h \
+  /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/scr/CurrentAddress.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

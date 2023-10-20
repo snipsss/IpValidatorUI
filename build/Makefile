@@ -142,29 +142,29 @@ IpValidatorUI_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IpValidatorUI_autogen.dir/build.make CMakeFiles/IpValidatorUI_autogen.dir/build
 .PHONY : IpValidatorUI_autogen/fast
 
-DefineTableCls.o: DefineTableCls.cpp.o
-.PHONY : DefineTableCls.o
+DefineTableCLS.o: DefineTableCLS.cpp.o
+.PHONY : DefineTableCLS.o
 
 # target to build an object file
-DefineTableCls.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IpValidatorUI.dir/build.make CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.o
-.PHONY : DefineTableCls.cpp.o
+DefineTableCLS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IpValidatorUI.dir/build.make CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.o
+.PHONY : DefineTableCLS.cpp.o
 
-DefineTableCls.i: DefineTableCls.cpp.i
-.PHONY : DefineTableCls.i
+DefineTableCLS.i: DefineTableCLS.cpp.i
+.PHONY : DefineTableCLS.i
 
 # target to preprocess a source file
-DefineTableCls.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IpValidatorUI.dir/build.make CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.i
-.PHONY : DefineTableCls.cpp.i
+DefineTableCLS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IpValidatorUI.dir/build.make CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.i
+.PHONY : DefineTableCLS.cpp.i
 
-DefineTableCls.s: DefineTableCls.cpp.s
-.PHONY : DefineTableCls.s
+DefineTableCLS.s: DefineTableCLS.cpp.s
+.PHONY : DefineTableCLS.s
 
 # target to generate assembly for a file
-DefineTableCls.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IpValidatorUI.dir/build.make CMakeFiles/IpValidatorUI.dir/DefineTableCls.cpp.s
-.PHONY : DefineTableCls.cpp.s
+DefineTableCLS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IpValidatorUI.dir/build.make CMakeFiles/IpValidatorUI.dir/DefineTableCLS.cpp.s
+.PHONY : DefineTableCLS.cpp.s
 
 HighLighterColumns.o: HighLighterColumns.cpp.o
 .PHONY : HighLighterColumns.o
@@ -296,9 +296,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... IpValidatorUI_autogen"
 	@echo "... IpValidatorUI"
-	@echo "... DefineTableCls.o"
-	@echo "... DefineTableCls.i"
-	@echo "... DefineTableCls.s"
+	@echo "... DefineTableCLS.o"
+	@echo "... DefineTableCLS.i"
+	@echo "... DefineTableCLS.s"
 	@echo "... HighLighterColumns.o"
 	@echo "... HighLighterColumns.i"
 	@echo "... HighLighterColumns.s"

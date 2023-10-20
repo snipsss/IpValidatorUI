@@ -9,10 +9,9 @@ QVector<QString> ReadFromFile(const QString& fileName)
     QTextStream out(stdout);
     //QStringList lstLine;
     QFile file(fileName);
-    bool ResultOpen = true;
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
     {
-        ResultOpen = false;
+        file.close();
     }
     QTextStream in(&file);
     QVector<QString> vectr;

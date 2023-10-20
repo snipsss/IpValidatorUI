@@ -320,6 +320,7 @@ CMakeFiles/IpValidatorUI.dir/IpValidatorUI_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+ /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/IpValidatorUI_autogen/EWIEGA46WW/../../../scr/CurrentAddress.h \
  /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/IpValidatorUI_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /home/valeriikupriianov/Desktop/QtIpValidator/IpValidatorUI/build/IpValidatorUI_autogen/EWIEGA46WW/../../../scr/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
